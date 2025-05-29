@@ -5,7 +5,7 @@ const humidityElem = document.getElementById('humidity');
 const windElem = document.getElementById('wind');
 
 function fetchWeather(lat, lon) {
-  const apiKey = '76579fbad499df2e4eb61a6bc8616a7c'; // Replace with your OpenWeatherMap API key
+  const apiKey = '8693701c2d9378c4ce35759059b90796'; // Replace with your OpenWeatherMap API key
   const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=${apiKey}`;
 
   fetch(url)
